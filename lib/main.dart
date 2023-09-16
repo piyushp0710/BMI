@@ -136,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     }
 
                     setState(() {
-                      result = "$msg \n Your BMI is: ${bmi.toStringAsFixed(4)}";
+                      result = "$msg \n Your BMI is: ${bmi.toStringAsFixed(5)}";
                     });
 
                   }
